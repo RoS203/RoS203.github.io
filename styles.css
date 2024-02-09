@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'F1';
+  src: url('Formula1-Regular-1.ttf') format('truetype');
+}
+
+:root {
+  --red-color: rgba(225,6,0,225);
+}
+
+body {
+  background-color: var(--red-color);
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'F1'
+}
+
+header {
+  border: 2px solid blue;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+}
+
+.logo {
+  width: 20%;
+  height: 100%;
+  border: 2px solid green;
+}
+
+.f1logo {
+  display: block;
+  height: 50%;
+  width: 100%;
+  margin-top: 18px;
+  object-fit: contain
+}
+
+
+.title {
+  color: white;
+  margin: auto 100px;
+  font-size: 35px;
+}
+
+.main {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.slogan-box {
+  background-color: var(--red-color);
+  width: 50%;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+  font-size: 18px
+}
+
+.slogan-number {
+  font-weight: bold; 
+}
+
+/*Navigation*/
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul>button {
+  background-color: black;
+  border: 4px solid white;
+  padding: 10px;
+  width: 128px;
+  margin: 5px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+ul>button:hover {
+  background-color: white;
+  border: 4px solid black;
+  color: black;
+}
+
+.navlink:hover {
+  color: black;
+}
+
+/*Section 1 - CURRENT*/ 
+#current {
+  border: 1px solid yellow;
+  background-color: white;
+}
+
+#current h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+#Nicola, #Romina {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+
